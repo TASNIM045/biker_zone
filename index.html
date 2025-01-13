@@ -166,12 +166,25 @@
 
     <main class="lg:container lg:mx-auto">
         <!-- Fetured bike section -->
-        <section>
-
+        <section class="my-24">
+            <h3 class="text-3xl md:text-5xl font-semibold text-center mb-2">
+                Fetured Bikes In This Year
+            </h3>
+            <p class="text-sm text-red-700 text-center">Best bike collection</p>
+            <p class="flex justify-center pt-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="59" height="1" viewBox="0 0 59 1" fill="none">
+                    <path d="M0 0.5H58.5" stroke="#E76F51" />
+                </svg>
+            </p>
+            <div class="grid md:grid-flow-col justify-around pt-8">
+                <img class="sm:mt-4" src="images/others/feature-bike.png" alt="">
+                <img class="sm:mt-4" src="images/others/feature-bike.png" alt="">
+                <img class="sm:mt-4" src="images/others/feature-bike.png" alt="">
+            </div>
         </section>
         <!-- latest bikes -->
         <section class="my-24">
-            <h3 class="text-5xl font-semibold text-center mb-12">
+            <h3 class="text-3xl md:text-5xl font-semibold text-center mb-12">
                 Latest Bikes
             </h3>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
@@ -221,7 +234,7 @@
         </section>
         <!-- happy clint -->
         <section class="my-24">
-            <h3 class="text-5xl mb-12 font-semibold text-center">
+            <h3 class="text-3xl md:text-5xl mb-12 font-semibold text-center">
                 Happy <span class="text-bike-primary">Clients Says</span>
             </h3>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
@@ -300,7 +313,7 @@
             </div>
             <!-- faq section -->
             <section class="my-24">
-                <h3 class="text-5xl mb-12 font-semibold text-center">
+                <h3 class="text-3xl md:text-5xl mb-12 font-semibold text-center">
                     Frequently Asked <span class="text-bike-primary">Questions</span>
                 </h3>
                 <div class="hero">
@@ -362,12 +375,22 @@
         </section>
     </main>
 
-    <footer class="footer bg-neutral text-neutral-content p-10">
+    <footer class="footer bg-neutral text-neutral-content p-10 justify-between md:px-40">
         <aside>
             <p>
-                ACME Industries Ltd.
-                <br />
-                Providing reliable tech since 1992
+                <a class="mr-8">Download Now</a>
+                <a>License</a>
+            </p>
+            <p class="grid md:grid-flow-col md:space-x-5">
+                <a>About</a>
+                <a>Features</a>
+                <a>Pricing</a>
+                <a>Careers</a>
+                <a>Help</a>
+                <a>Privacy Policy</a>
+            </p>
+            <p>
+                © 2020 bike. All rights reserved
             </p>
         </aside>
         <nav>
